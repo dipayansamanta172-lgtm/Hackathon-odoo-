@@ -2,7 +2,7 @@
 
 > A modern Human Resource Management System (HRMS) built for the Odoo Hackathon, designed to streamline employee management, attendance tracking, leave requests, payroll processing, and secure role-based access for organizations.
 
-![GitHub Stars](https://img.shields.io/github/stars/your-username/your-repository?style=for-the-badge)
+![GitHub Stars](https://img.shields.io/github/stars/dipayansamanta172-lgtm/Hackathon-odoo-?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-20-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-Backend-000000?style=for-the-badge&logo=express)
