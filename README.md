@@ -3,7 +3,6 @@
 > A modern Human Resource Management System (HRMS) built for the Odoo Hackathon, designed to streamline employee management, attendance tracking, leave requests, payroll processing, and secure role-based access for organizations.
 
 ![GitHub Stars](https://img.shields.io/github/stars/your-username/your-repository?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-20-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-Backend-000000?style=for-the-badge&logo=express)
@@ -205,56 +204,6 @@ JWT_SECRET=your_secret_key
 
 ---
 
-# Screenshots
-
-### Landing Page
-
-```text
-(Add Landing Page Screenshot Here)
-```
-
----
-
-### Employee Dashboard
-
-```text
-(Add Employee Dashboard Screenshot Here)
-```
-
----
-
-### Admin Dashboard
-
-```text
-(Add Admin Dashboard Screenshot Here)
-```
-
----
-
-### Attendance
-
-```text
-(Add Attendance Screenshot Here)
-```
-
----
-
-### Leave Management
-
-```text
-(Add Leave Management Screenshot Here)
-```
-
----
-
-### Payroll
-
-```text
-(Add Payroll Screenshot Here)
-```
-
----
-
 # Future Improvements
 
 - Real-time notifications
@@ -269,19 +218,13 @@ JWT_SECRET=your_secret_key
 
 | Name | Role |
 |------|------|
-| Your Name | Full Stack Developer |
-| Contributor 2 | Frontend Developer |
-| Contributor 3 | Backend Developer |
+| Dipayan Samanta | Full Stack Developer |
+| Gourav Ghosh    | Frontend Developer |
+| Rohit Das       | Backend Developer |
+| Rashi koiri     | Backend Developer |
 
 ---
 
-# License
-
-This project is licensed under the **MIT License**.
-
-See the `LICENSE` file for more information.
-
----
 
 # Language Distribution
 
