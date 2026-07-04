@@ -22,7 +22,7 @@ The system is designed with a responsive React frontend, a scalable Express.js b
 
 | Download | Repository |
 |----------|------------|
-| [Download Project](https://your-download-link.com) | [GitHub Repository](https://github.com/your-username/your-repository) |
+| [Download Project](https://your-download-link.com) | [GitHub Repository]([https://github.com/your-username/your-repository](https://github.com/dipayansamanta172-lgtm/Hackathon-odoo-)) |
 
 ---
 
