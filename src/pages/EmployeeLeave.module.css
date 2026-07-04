@@ -1,0 +1,304 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: left;
+}
+
+/* Accrued balance cards */
+.statsRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.statCard {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  padding: 16px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.statLabel {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.statVal {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+/* Layout for calendar + form */
+.layoutGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+@media (min-width: 992px) {
+  .layoutGrid {
+    grid-template-columns: 2fr 1.2fr;
+  }
+}
+
+/* Yearly Calendar Component */
+.calendarCard {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.calendarTitleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calendarTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+/* Legend Styling */
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-secondary);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: var(--border-radius-full);
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.dotPresent { background-color: #10b981; }  /* Green */
+.dotHalf { background-color: #f59e0b; }     /* Yellow */
+.dotLeave { background-color: #ef4444; }    /* Red */
+.dotFuture { background-color: #ffffff; border-color: var(--border-color); } /* White */
+.dotWeekend { background-color: #cbd5e1; }  /* Gray */
+
+/* 12-Month Grid container */
+.yearGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 576px) {
+  .yearGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .yearGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Single Month block styling */
+.monthBlock {
+  border: 1px solid #f1f5f9;
+  border-radius: var(--border-radius-md);
+  padding: 12px;
+  background-color: #f8fafc;
+}
+
+.monthName {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.daysHeader {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.daysGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+}
+
+.dayCell {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 4px;
+  color: var(--text-primary);
+}
+
+/* Color states */
+.present {
+  background-color: #10b981;
+  color: #ffffff;
+}
+
+.halfDay {
+  background-color: #f59e0b;
+  color: #ffffff;
+}
+
+.leave {
+  background-color: #ef4444;
+  color: #ffffff;
+}
+
+.future {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  color: #94a3b8;
+}
+
+.weekend {
+  background-color: #cbd5e1;
+  color: #64748b;
+}
+
+.empty {
+  visibility: hidden;
+}
+
+.notRecorded {
+  background-color: #f1f5f9;
+  border: 1px dashed #cbd5e1;
+  color: #94a3b8;
+}
+
+/* Right card: Form / History */
+.rightCard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formCard {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-card);
+}
+
+.formTitle {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.select, .textarea {
+  width: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-md);
+  padding: 12px;
+  font-size: 0.92rem;
+  outline: none;
+  background-color: var(--bg-input);
+  transition: border-color var(--transition-fast);
+}
+
+.select:focus, .textarea:focus {
+  border-color: var(--border-focus);
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* History Card */
+.historyCard {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-card);
+}
+
+.historyList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.historyItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-md);
+}
+
+.historyMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.historyType {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.historyDates {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}

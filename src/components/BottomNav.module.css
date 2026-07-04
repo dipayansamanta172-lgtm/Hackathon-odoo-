@@ -1,0 +1,81 @@
+.bottomNav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  background-color: var(--bg-card);
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 100;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.03);
+}
+
+@media (min-width: 768px) {
+  .bottomNav {
+    display: none !important;
+  }
+}
+
+.navItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 100%;
+  color: var(--text-secondary);
+  font-size: 0.72rem;
+  font-weight: 500;
+  gap: 4px;
+  transition: all var(--transition-fast);
+  text-decoration: none;
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 28px;
+  border-radius: var(--border-radius-lg);
+  transition: all var(--transition-fast);
+}
+
+.navItem:hover {
+  color: var(--primary-color);
+}
+
+.active {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.active .iconWrapper {
+  background-color: var(--primary-light);
+  color: var(--primary-color);
+}
+
+/* Float action button styling integration if needed */
+.addButton {
+  position: absolute;
+  top: -24px;
+  right: 24px;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--border-radius-full);
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(59, 44, 212, 0.3);
+  transition: transform var(--transition-fast), background-color var(--transition-fast);
+}
+
+.addButton:hover {
+  background-color: var(--primary-hover);
+  transform: scale(1.05);
+}
