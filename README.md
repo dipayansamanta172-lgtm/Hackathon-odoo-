@@ -20,9 +20,9 @@ The system is designed with a responsive React frontend, a scalable Express.js b
 
 ## Demo
 
-| Live Demo | Download | Repository |
-|-----------|----------|------------|
-| [Live Demo](https://your-demo-link.com) | [Download Project](https://your-download-link.com) | [GitHub Repository](https://github.com/your-username/your-repository) |
+| Download | Repository |
+|----------|------------|
+| [Download Project](https://your-download-link.com) | [GitHub Repository](https://github.com/your-username/your-repository) |
 
 ---
 
