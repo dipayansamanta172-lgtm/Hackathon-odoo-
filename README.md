@@ -30,11 +30,6 @@ The system is designed with a responsive React frontend, a scalable Express.js b
     <img src="https://img.shields.io/badge/Download-Project-28A745?style=for-the-badge&logo=github" alt="Download Project">
 </a>
 
-<a href="#">
-    <img src="https://img.shields.io/badge/Live-Demo-Coming%20Soon-0A66C2?style=for-the-badge&logo=google-chrome" alt="Live Demo">
-</a>
-
-</p>
 
 ---
 
