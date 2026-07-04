@@ -20,9 +20,21 @@ The system is designed with a responsive React frontend, a scalable Express.js b
 
 ## Demo
 
-| Download | Repository |
-|----------|------------|
-| [Download Project](https://your-download-link.com) | [GitHub Repository]([https://github.com/your-username/your-repository](https://github.com/dipayansamanta172-lgtm/Hackathon-odoo-)) |
+<p align="center">
+
+<a href="https://github.com/dipayansamanta172-lgtm/Hackathon-odoo-">
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository">
+</a>
+
+<a href="https://github.com/dipayansamanta172-lgtm/Hackathon-odoo-/archive/refs/heads/main.zip">
+    <img src="https://img.shields.io/badge/Download-Project-28A745?style=for-the-badge&logo=github" alt="Download Project">
+</a>
+
+<a href="#">
+    <img src="https://img.shields.io/badge/Live-Demo-Coming%20Soon-0A66C2?style=for-the-badge&logo=google-chrome" alt="Live Demo">
+</a>
+
+</p>
 
 ---
 
